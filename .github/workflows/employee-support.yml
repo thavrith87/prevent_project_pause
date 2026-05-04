@@ -13,4 +13,5 @@ jobs:
       - name: Ping Appwrite API
         run: |
           curl -X GET "https://sgp.cloud.appwrite.io/v1/health" \
-          -H "X-Appwrite-Project: 69e723410022d4804119"
+          -H "X-Appwrite-Project: 69e723410022d4804119" \
+          -H "X-Appwrite-Key: standard_9016f35708c7ad95c002791e7b661c776197679c074e7f871aaae2f1209123667bc41dd74fb931fe637f29f6fcdf1d8ecd023f72249f9c9b492fb6b879108a87bdedbbb20bd017ba804cec2b6c5dc13d5a2c7d78eadc631e42670693afee7b4e2be441a939920823f5067b95971809cf526e254daf48059ded2e8e89e0ba598c"
