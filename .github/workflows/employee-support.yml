@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Ping Appwrite API
         run: |
-          curl -X GET "${{ secrets.APPWRITE_ENDPOINT }}/health" \
-          -H "X-Appwrite-Project: ${{ secrets.APPWRITE_PROJECT_ID }}"
+          curl -X GET "https://sgp.cloud.appwrite.io/v1/health" \
+          -H "X-Appwrite-Project: 69e723410022d4804119"
