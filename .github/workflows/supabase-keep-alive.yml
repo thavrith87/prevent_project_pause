@@ -12,6 +12,5 @@ jobs:
     steps:
       - name: Ping Supabase API
         run: |
-          curl -X GET "https://fktamzplztitaqlkiqrv.supabase.co/rest/v1/" \
-          -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrdGFtenBsenRpdGFxbGtpcXJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyNjQ3OTgsImV4cCI6MjA4NTg0MDc5OH0.R50eT2JgOfkrJdRKGhnP2e9jI2A_H2XJR1W_GYXAbrc" \
-          -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrdGFtenBsenRpdGFxbGtpcXJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyNjQ3OTgsImV4cCI6MjA4NTg0MDc5OH0.R50eT2JgOfkrJdRKGhnP2e9jI2A_H2XJR1W_GYXAbrc"
+          curl -X GET "https://fktamzplztitaqlkiqrv.supabase.co/auth/v1/health" \
+          -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrdGFtenBsenRpdGFxbGtpcXJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyNjQ3OTgsImV4cCI6MjA4NTg0MDc5OH0.R50eT2JgOfkrJdRKGhnP2e9jI2A_H2XJR1W_GYXAbrc"
